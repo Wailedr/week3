@@ -1,0 +1,83 @@
+body {
+  background-color: white;
+  font-family: serif;
+}
+#header-nav { /* HEADER */
+  background-color: #808080;
+  border: 0;
+  border-radius: 0;
+  /*height: 80px; */
+}
+.navbar-brand { /* FOOD LLC */
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+.navbar-brand h1 {
+  color: #fff;
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  /*height: 200px;*/
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #fff;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: black;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #fff;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -50px;
+}
+#collapsable-nav a
+{
+  background-color: #808080;
+}
+.jumbotron > div {
+  height: 500px;
+  border: 1px black solid;
+  background-color: #dbd8d4;
+  overflow: hidden;
+  margin: 10px 0 10px 0;
+}
+.sp {
+  margin: 10px;
+}
+.jumbotron {
+  min-height: 1800px;
+}
+p {
+  margin: 10px;
+  font-size: 0.8em;
+}
+/* Extra small devices e.g: iphone 4s; */
+@media (max-width: 767px)
+{
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+}
+  .container .jumbotron {
+    /*margin-top: 30px;*/
+    padding: 5px;
+  }
+  .jumbotron > div
+  {
+    min-width: 250px;
+    min-height: 100px;
+  }
+}
